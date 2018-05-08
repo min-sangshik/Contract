@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/contractTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="계약시각"
+            android:textSize="17dp"
+            android:textColor="@color/colorLogo2"/>
+
+        <TextView
+            android:id="@+id/contractText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="게약내용"
+            android:textSize="13dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
